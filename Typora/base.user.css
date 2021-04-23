@@ -1,0 +1,12 @@
+
+/* 自定义字体，全局覆盖所有主题文件 */
+/* 代码块字体 */
+.CodeMirror-wrap .CodeMirror-code pre {	
+	/* 根据字体顺序优先选择，如果没有安装对应字体就下一个 */
+	font-family: "JetBrains Mono NL", "JetBrains Mono", Source Code Pro,Consolas,"PingFangSC-Light","PingFangSC-Regular","Microsoft Yahei",Arial,sans-serif;
+}
+
+/* 行内代码字体 */
+.md-fences,code,tt {
+	font-family: "JetBrains Mono NL", "JetBrains Mono", Source Code Pro,Consolas,"PingFangSC-Light","PingFangSC-Regular","Microsoft Yahei",Arial,sans-serif;
+}
